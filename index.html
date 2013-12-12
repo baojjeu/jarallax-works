@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>
+  <script src="js/jquery.js"></script>
+  <script src="js/jarallax-0.2.4b.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body onload="init()">
+  <div class="canada"></div>
+  <div class="sag"></div>
+  <div class="baozi"></div>
+  <div class="earth"></div>
+  <div class="dream"></div>
+  <div class="there"></div>
+  <div class="background"></div>
+  <div class="chloe"></div>
+  <div class="tip">
+    <h1>scroll it slowly :)</h1>
+  </div>
+  <div id="test">
+    <p class="word_wrapper" id="word1">Hi 혜진, I'm Baozi.</p>
+    <p class="word_wrapper" id="word2">Do you know... <br> what day it is today?</p>
+    <p class="word_wrapper" id="word3">Well...if you don't, <br> please let me tell you.</p>
+    <p class="word_wrapper" id="word4">Today is a <span class="featured">big</span> day :)</p>
+    <p class="word_wrapper word_wrapper_fix" id="word5">
+      The reason why that there is <br> <span class="featured_two">
+      a special girl</span> <br> was born in the world!
+    </p>
+    <p class="word_wrapper word_wrapper_fix" id="word6">
+      She is awesome, especially her courage <br>
+      she told me she will go to Canada<br>
+      for working holiday <span class="featured_three">alone</span>!
+    </p>
+
+    <!-- tooltip todo -->
+    <p class="word_wrapper" id="word7">
+      I found out that <br>
+      her star sign is <span class="featured_four">Sagittarius</span>.
+    </p>
+
+    <p class="word_wrapper word_wrapper_second_fix" id="word8">
+      <img src="pics/sagittarius-constellation.png" alt="">
+      &nbsp;=&nbsp;challenges&nbsp;+&nbsp;freedom&nbsp;+&nbsp;positive</span>
+    </p>
+
+    <p class="word_wrapper" id="word9">
+      No wonder <span class="featured_three">she is so brave</span>.
+    </p>
+
+    <p class="word_wrapper word_wrapper_fix" id="word10">
+      I really want to be her best friend <br>
+      <span class="featured_four">as soon as I meet her</span>.
+    </p>
+
+    <p class="word_wrapper word_wrapper_fix" id="word11" style="color: white">
+      Although we have not seen each other <br>in the real world.
+    </p>
+
+    <p class="hithere" style="position: fixed; font-size: 50px;">: Hi, there! My name is Baozi.</p>
+
+    <p class="word_wrapper" id="word12">
+      I'm affected by her, <br>
+      she lets me know I can do what I want exactly.
+    </p>
+
+    <p class="word_wrapper" id="word13">
+      I'm grateful for her, <br>
+      I'm following my dream now, and no worries.
+    </p>
+
+    <p class="word_wrapper" id="word14">
+      8 months later, she will fly there <br>
+      to design and enjoy her wonderful life.
+    </p>
+
+    <p class="word_wrapper" id="word15">
+      30 months later, I will jump there <br>
+      to follow in her footprints <br>
+      and create my pretty life.
+    </p>
+
+    <p class="word_wrapper word_wrapper_fix" id="word16">
+      I'm looking forward to doing that. <br>
+      and hope one day <br>
+      we can be a good partner <br>
+      <span class="featured_two">traveling whole world around</span>.
+    </p>
+
+    <p class="word_wrapper word_wrapper_fix" id="word17">
+      Umm...I remember that <br>
+      she is your friend, right? <br>
+      her english name is <span class="featured_three">Chloe</span>.
+    </p>
+
+    <p class="word_wrapper word_wrapper_fix" id="word18">
+      Now I'd like to ask a favor of you! <br>
+      Could you take these messages to her? <br> <br>
+      Thank you!
+    </p>
+
+    <p class="word_wrapper" id="word19">
+      Ha ha, alright. <br>
+      I'm serious now.
+    </p>
+
+    <p class="word_wrapper final" id="word20">
+      We will meet here right? The Calgary.
+    </p>
+
+
+
+    <div class="hbd">
+      <span style="color: #fc0008" id="word21" class="hbd_word">H</span>
+      <span style="color: #f28016" id="word22" class="hbd_word">a</span>
+      <span style="color: #7bbc30" id="word23" class="hbd_word">p</span>
+      <span style="color: #7a0e79" id="word24" class="hbd_word">p</span>
+      <span style="color: #139cec" id="word25" class="hbd_word">y</span>
+      <span style="color: #2fa638" id="word26" class="hbd_word">B</span>
+      <span style="color: #0a5cbb" id="word27" class="hbd_word">i</span>
+      <span style="color: #e8007a" id="word28" class="hbd_word">r</span>
+      <span style="color: #201c7d" id="word29" class="hbd_word">t</span>
+      <span style="color: #fec109" id="word30" class="hbd_word">h</span>
+      <span style="color: #fb0006" id="word31" class="hbd_word">d</span>
+      <span style="color: #063e91" id="word32" class="hbd_word">a</span>
+      <span style="color: #56167c" id="word33" class="hbd_word">y</span>
+      <span id="word34" class="hbd_word">!</span>
+      <br>
+      <span id="word35" class="hbd_word">혜진.</span>
+    </div>
+    <p class="word_wrapper" id="word36">
+      <br> This song is for you! <br>
+      <audio controls>
+        <source src="http://paotzu.tk/hbdtokhj/congrat/hbd.mp3" type="audio/mpeg">
+      </audio>
+    </p>
+  </div>
+  <div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+  <script>
+    $(function() {
+      jQuery(window).load(function() {
+        // will first fade out the loading animation
+  jQuery("#status").fadeOut();
+        // will fade out the whole DIV that covers the website.
+  jQuery("#preloader").delay(1000).fadeOut("slow");
+})
+    });
+  </script>
+</body>
+</html>

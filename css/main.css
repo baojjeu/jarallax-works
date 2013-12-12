@@ -1,0 +1,201 @@
+body {
+  font-family: 'Belleza', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 18000px;
+  text-shadow: 1px 3px 3px rgba(255, 255, 255, 0.6);
+}
+
+.background {
+  display: block;
+  background: url(../pics/calgary-twilight.jpg);
+  width: 5431px;
+  height: 100%;
+  position: fixed;
+  top: 0%;
+  left:0%;
+  z-index: -1;
+}
+
+.coffeeshop {
+  display: block;
+  background: url(../pics/coffee_shop.jpg);
+  width: 720px;
+  height: 960px;
+  position: fixed;
+  top: 0%;
+  left:0%;
+  z-index: -1;
+}
+
+/*h1 {
+  font-family: 'Belleza', sans-serif;
+  font-size: 350%;
+  position: fixed;
+}
+
+#head1 {
+  color: white;
+  top: 20px;
+}*/
+
+.word_wrapper {
+  font-size: 350%;
+  /*background: #E0E0E0;*/
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.word_wrapper_fix {
+  left: 35%;
+}
+
+.word_wrapper_second_fix {
+  left: 25%;
+}
+
+.img_wrapper {
+  position: fixed;
+  top: 10%;
+  left: 8%;
+}
+
+.featured {
+  color: #1D71CD;
+  font-size: 200px;
+}
+
+.featured_two {
+  color: #E60486;
+  font-size: 100px;
+}
+
+.featured_three {
+  color: #74ba7c;
+}
+
+.featured_four {
+  color: #3b8fba;
+}
+
+.featured_five {
+  color: #5a56ba;
+}
+
+.canada {
+  display: block;
+  width: 257px;
+  height: 231px;
+  position: fixed;
+  background: url(../pics/canada-maple-leaf.png);
+}
+
+.sag {
+  display: block;
+  width: 280px;
+  height: 280px;
+  position: fixed;
+  background: url(../pics/sagittarius-constellation.png);
+}
+
+.baozi {
+  display: block;
+  width: 180px;
+  height: 180px;
+  position: fixed;
+  background: url(../pics/baozi.png);
+}
+
+.earth {
+  display: block;
+  width: 1600px;
+  height: 1067px;
+  position: fixed;
+  top: 0%;
+  left:0%;
+  z-index: -1;
+  background: url(../pics/earth.jpg);
+}
+
+.dream {
+  display: block;
+  width: 1920px;
+  height: 1200px;
+  position: fixed;
+  top: 0%;
+  left:0%;
+  z-index: -1;
+  background: url(../pics/dream.jpg);
+}
+
+.final {
+  color: white;
+}
+
+.there {
+  display: block;
+  background: url(../pics/flag-of-canada.jpg);
+  width: 1920px;
+  height: 1200px;
+  position: fixed;
+  top: 0%;
+  left:-18%;
+  z-index: -1;
+}
+
+.chloe {
+  display: block;
+  border-radius: 479px;
+  box-shadow:1px 1px 3px 2px rgba(0%,0%,0%,0.5) inset;
+  width: 479px;
+  height: 479px;
+  position: fixed;
+  background: url(../pics/chloe.png);
+}
+
+.hbd {
+  font-size: 70px;
+  position: fixed;
+  left: 40%;
+  top: 20%;
+}
+
+.tip {
+  display: block;
+  width: 440px;
+  height: 500px;
+  position: fixed;
+  right: 0%;
+  background: url(../pics/arrow.png);
+}
+
+.tip h1 {
+  position: fixed;
+  right: 13%;
+  top: 50%;
+}
+
+
+#preloader  {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #fefefe;
+     z-index: 99;
+    height: 100%;
+ }
+
+#status  {
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     background-image: url(../pics/loading.gif);
+     background-repeat: no-repeat;
+     background-position: center;
+     margin: -100px 0 0 -100px;
+ }
